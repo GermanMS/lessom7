@@ -25,7 +25,6 @@ for (int i = 0; i < m; i++)
     for (int j = 0; j < n; j++)
     {
         matrix[i, j] = new Random().NextDouble()*55-25;
-        // матрица от -25 до 30. Почему тогда цифры в ответе девяти значные? или я чтото не правильно понял?
         Console.Write(matrix[i, j] + " ");
     }
     Console.WriteLine();
