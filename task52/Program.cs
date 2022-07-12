@@ -19,17 +19,17 @@ for (int i = 0; i < m; i++)
     Console.WriteLine();
 }
 Console.Write("\n");
-// int  [] A =new int [n];
-int   A =0;
-for (int i = 0; i < n; i++)
-{
-    for (int j = 0; j < m; j++)
+double A =0;
+for (int j = 0; j < n; j++)
+{    
+    A=0;
+    for (int i = 0; i < m; i++)
     {
-        // if(i==n && j==1 )
-        // {
+        
+      
         A+=matrix[i,j];       
-        // }
-    }   // Console.Write($"{A} сумма элементов по столбцу");
+        
+    }   Console.Write($" \n {A/m} среднее афифмитическое значение");
     
 } 
 
